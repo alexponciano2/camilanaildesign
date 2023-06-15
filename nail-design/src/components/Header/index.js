@@ -13,7 +13,7 @@ function Header() {
     return (
         <>
         <div className={styles.header}>
-            <img src={logo} alt="cnd" className="logo"/>
+            <a href="/"><img src={logo} alt="cnd" className="logo"/></a>
         </div>
 
         <div>
