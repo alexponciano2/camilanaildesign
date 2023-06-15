@@ -8,10 +8,9 @@
 h1{
     background-color: #ffb895;
     background-image: linear-gradient(to top, #ffffffff, #ffb895);
-
     text-align: center;
     padding: 10px;
-    font-family: 'Arian LT Light';
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
 }
 
@@ -22,10 +21,12 @@ h1{
     padding: 15px;
     width: 100%;
     margin: auto;
-    color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 1px rgb(83, 83, 83);
-    font-size: 1.7rem;
+    color: rgba(255, 255, 255);
+    text-shadow: 1px 2px 1px rgb(83, 83, 83);
+    font-size: 1.3rem;
     text-align: center;
+    font-family: cursive;
+
     
 }
 

@@ -29,7 +29,7 @@
 }
 
 .whatsapp{
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     position: absolute;
     right: 10px;
@@ -39,20 +39,39 @@
     width: 40px;
 }
 
+.whatsapp:hover{
+    width: 2.7rem;
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
 .instagram{
     display: flex;
     position: absolute;
     right: 10px;
-    top: 70px;
+    top: 60px;
     flex-direction: column;
     width: 40px;
 }
+
+.instagram:hover{
+    width: 2.7rem;
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
 
 .facebook{
     display: flex;
     position: absolute;
     right: 10px;
-    top: 120px;
+    top: 110px;
     flex-direction: column;
     width: 40px;
+}
+
+.facebook:hover{
+    width: 2.7rem;
+    filter: brightness(1.2);
+    cursor: pointer;
 }

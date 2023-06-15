@@ -1,8 +1,7 @@
 .navbar{
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to top, #ffb895, #ffffffff);
-    
+    background-image: linear-gradient(to top, #ffb895, #ffffffff);    
 }
 
 .navbar a{
@@ -10,6 +9,10 @@
     align-items: center;
     justify-content: center;
     font-weight: 500;
+}
+
+.navbar a:hover{
+    color: rgba(255, 0, 0, 0.599);
 }
 
 .meauto{
