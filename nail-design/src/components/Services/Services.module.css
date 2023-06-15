@@ -5,6 +5,12 @@
     gap: 5px;
 }
 
+.tudo{
+    background-image: url("../../images/nail1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 h1{
     background-color: #ffb895;
     background-image: linear-gradient(to top, #ffffffff, #ffb895);
@@ -37,7 +43,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-image: url("../../images/unha-1.png");
+    /* background-image: url("../../images/unha-1.png"); */
     background-size: cover;
     background-position: center;
     filter: brightness(1.7);
@@ -51,7 +57,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-image: url("../../images/nail1.jpg");
+    /* background-image: url("../../images/nail1.jpg"); */
     background-size: cover;
     background-position: center;
     filter: brightness(1.7);
@@ -65,7 +71,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-image: url("../../images/nail2.jpg");
+    /* background-image: url("../../images/nail1.jpg"); */
     background-size: cover;
     background-position: center;
     filter: brightness(1.7);
@@ -79,7 +85,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-image: url("../../images/nail3.jpg");
+    /* background-image: url("../../images/nail1.jpg"); */
     background-size: cover;
     background-position: center;
     filter: brightness(1.8);
