@@ -4,18 +4,30 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
+import logo from './logo2.png'
+import whatsapp from './whatsapp.png'
+import instagram from './instagram.png'
+import facebook from './facebook.png'
 
 function Header() {
     return (
-        <nav className={styles.header}>
-            <Container>
-                <Row>                    
-                    <Col xs={6} md={4}>
-                        <Image src="nail-design/src/images/unha-2.jpg" roundedCircle />
-                    </Col>
-                </Row>
-            </Container>
-        </nav>
+        <>
+        <div className={styles.header}>
+            <img src={logo} alt="cnd" className="logo"/>
+        </div>
+
+        <div>
+            <img src={whatsapp} alt="wa" className={styles.whatsapp}/>
+        </div>
+
+        <div>
+            <img src={instagram} alt="ig" className={styles.instagram}/>
+        </div>
+
+        <div>
+            <img src={facebook} alt="fb" className={styles.facebook}/>
+        </div>
+        </>
     );
 }
 

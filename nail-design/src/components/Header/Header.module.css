@@ -15,8 +15,44 @@
     padding-top: 30px;
     padding-bottom: 20px;
     font-size: 1.7rem;
-
+    background-image: linear-gradient(to top, #ffffffff, #ffb895);
     color: #333;
     padding: 20px;
     text-align: center
+}
+
+.header img{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 200px;
+}
+
+.whatsapp{
+    margin-top: 40px;
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    flex-direction: column;    
+    margin-inline-end: 0;
+    width: 40px;
+}
+
+.instagram{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    flex-direction: column;
+    width: 40px;
+}
+
+.facebook{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    flex-direction: column;
+    width: 40px;
 }

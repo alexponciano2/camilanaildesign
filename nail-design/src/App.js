@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header/>
       <NavBar />
       <Banner/>
       <Container/>

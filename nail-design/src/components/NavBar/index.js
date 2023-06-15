@@ -5,12 +5,13 @@ import styles from "./NavBar.module.css"
 
 function NavBar() {
   return (
+    <>
     <Navbar collapseOnSelect expand="lg" className={styles.navbar}>
       <Container>
-        <Navbar.Brand href="#menu">MENU</Navbar.Brand>
+        <Navbar.Brand className={styles.navbrand} href="#menu">MENU</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className={styles.meauto}>
             <Nav.Link href="#inicio">INÍCIO</Nav.Link>
             <Nav.Link href="#studio">STUDIO</Nav.Link>
             <Nav.Link href="#servicos">SERVIÇOS</Nav.Link>
@@ -21,6 +22,7 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </>
   );
 }
 

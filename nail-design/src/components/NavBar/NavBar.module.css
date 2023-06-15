@@ -1,3 +1,19 @@
 .navbar{
-    background-color: #ffb895;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to top, #ffb895, #ffffffff);
+    
+}
+
+.navbar a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.meauto{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
 }
