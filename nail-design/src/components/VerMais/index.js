@@ -3,8 +3,8 @@ import styles from "./VerMais.module.css"
 function VerMais() {
     return (
         <section className={styles.vermais}>
-            <button type="text">VEJA MAIS</button>
-            <h2>SIGA-NOS NO INSTAGRAM: @camilaperini.nails/</h2>
+            <button className={styles.button} type="text">VEJA MAIS</button>
+            <h2>SIGA NOSSO INSTAGRAM: <a href="https://www.instagram.com/camilaperini.nails/">@camilaperini.nails/</a></h2>
         </section>
     );
 }
