@@ -1,0 +1,35 @@
+.services{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1{
+    background-color: rgb(255, 221, 179);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Arian LT Light';
+    font-size: 40px;
+}
+
+.services h2{
+    background-color: rgba(210, 117, 117, 0.647);
+    border: rgb(255, 200, 198) solid 10px;
+    border-style: outset;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(83, 83, 83);
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.bg1{
+    background-color: black;
+}
+
+.bg2{
+    background-color: blue;
+}
