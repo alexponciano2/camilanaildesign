@@ -33,7 +33,6 @@
     max-width: 1000px;
 }
 
-
 .mapa p{
     font-size: 2rem;
     max-width: 1000px;
@@ -55,7 +54,7 @@
     width: 300px;
     height: 50px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
     justify-content: center;
     vertical-align: center;
@@ -68,4 +67,20 @@
     transition: .5s;
     border-radius: 10px;
     border-style: none;
+}
+
+.agendamento button:hover{
+    background-color: rgb(255, 177, 41);
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    color: black;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 200px;
 }

@@ -20,9 +20,13 @@ function App() {
       <NavBar />
       <Banner />
       <Container />
+      <div id='servicos'></div>
       <Services />
+      <div id='agenda'></div>
       <Agendamento />
+      <div id='endereco'></div>
       <Video />
+      <div id='contato'></div>
       <Contato/>
       <VerMais />
       <Footer />

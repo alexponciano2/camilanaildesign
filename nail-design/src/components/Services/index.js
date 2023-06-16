@@ -4,7 +4,7 @@ function Services() {
     return (
         <>
             <section className={styles.services}>
-                <h1 className="servicos">NOSSOS <strong> SERVIÇOS</strong></h1>
+                <h1 className="servicos">NOSSOS SERVIÇOS</h1>
             </section>
             
             <section className={styles.tudo}>

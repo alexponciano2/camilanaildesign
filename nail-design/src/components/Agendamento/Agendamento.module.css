@@ -10,6 +10,7 @@
 .agendamento h1{
     background-image: linear-gradient(to top, #ffffffff, #ffb895);
     width: 100%;
+    transform: translateY(-27px);
 }
 
 .agendamento button{

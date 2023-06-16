@@ -50,20 +50,31 @@ a:hover {
 }
 
 .whatsapp{
-    width: 80px;
+    width: 60px;
+}
+
+.whatsapp:hover{
+    filter: brightness(1.2);
 }
 
 .instagram{
-    width: 80px;
+    width: 60px;
+}
 
+.instagram:hover{
+    filter: brightness(1.2);
 }
 
 .facebook{
-    width: 80px;
+    width: 60px;
+}
 
+.facebook:hover{
+    filter: brightness(1.2);
 }
 
 .vermais h2{
     font-weight: 500;
     font-family: 'Times New Roman', Times, serif;
 }
+
