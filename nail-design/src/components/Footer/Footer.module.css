@@ -59,4 +59,6 @@ p{
     justify-content: center;
     align-items: center;
     margin: auto;
+    font-size: 1rem;
+    text-shadow: 2px 2px 7px white;
 }

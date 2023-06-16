@@ -40,3 +40,30 @@ a{
 a:hover {
     color:#ff7d7d;
 }
+
+.socialmedia{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.whatsapp{
+    width: 80px;
+}
+
+.instagram{
+    width: 80px;
+
+}
+
+.facebook{
+    width: 80px;
+
+}
+
+.vermais h2{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}

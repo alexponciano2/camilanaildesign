@@ -1,14 +1,17 @@
 .navbar{
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to top, #ffb895, #ffffffff);    
+    background-image: linear-gradient(to top, #ffffffff, #ffb895);
+    max-width: 1000px;
+    margin: auto;
 }
+
 
 .navbar a{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: black;
 }
 
 .navbar a:hover{

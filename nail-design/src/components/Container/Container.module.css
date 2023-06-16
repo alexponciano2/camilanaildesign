@@ -4,6 +4,8 @@
     align-items: center;
     flex-wrap: wrap;
     background-color: #ffffffc0;
+    max-width: 1000px;
+    margin: auto;
 
 }
 

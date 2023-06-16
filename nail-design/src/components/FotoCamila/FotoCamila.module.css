@@ -1,0 +1,8 @@
+.fotocamila img{
+    display: flex;
+    margin-top: 20px;
+    width: 200px;
+    position: absolute;
+    left: -40px;
+
+}

@@ -9,9 +9,17 @@
     background-image: url("../../images/nail2.jpg");
     background-size: cover;
     background-position: center;
+    max-width: 1000px;
+    margin: auto;
 }
 
 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    width: 100%;
     background-color: #ffb895;
     background-image: linear-gradient(to top, #ffffffff, #ffb895);
     text-align: center;
@@ -21,6 +29,7 @@ h1{
     font-size: 35px;
     color: rgba(0, 0, 0, 0.675);
     text-shadow: 1px 2px 1px rgb(255, 255, 255);
+    max-width: 1000px;
 }
 
 .services h2{

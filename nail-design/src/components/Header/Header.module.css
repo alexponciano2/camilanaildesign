@@ -10,15 +10,20 @@
     margin: auto;
     height: 100%;
     display: flex;
-    background-color: #ffb895c0;
+    background-color: #ffb8957a;
     font-family: 'Cinzel', serif;
     padding-top: 30px;
     padding-bottom: 20px;
     font-size: 1.7rem;
-    background-image: linear-gradient(to top, #ffffffff, #ffb895);
     color: #333;
     padding: 20px;
-    text-align: center
+    text-align: center;
+    background-image: url("../FotoCamila/fotocamila3.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: -60px;
+    background-position-y: 100%;    
+
 }
 
 .header a{

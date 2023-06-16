@@ -2,7 +2,9 @@ import './App.css';
 import Agendamento from './components/Agendamento';
 import Banner from './components/Banner';
 import Container from './components/Container';
+import Contato from './components/Contato';
 import Footer from './components/Footer';
+import FotoCamila from './components/FotoCamila';
 import Header from "./components/Header"
 import NavBar from './components/NavBar';
 import Services from './components/Services';
@@ -14,15 +16,16 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <Header />
       <NavBar />
-      <Banner/>
-      <Container/>
-      <Services/>
-      <VerMais/>
-      <Agendamento/>
-      <Video/>
-      <Footer/>
+      <Banner />
+      <Container />
+      <Services />
+      <Agendamento />
+      <Video />
+      <Contato/>
+      <VerMais />
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contato{
+    background-image: linear-gradient(to top, #ffffffff, #ffb895);
+    width: 100%;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contato p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    width: 100%;
+    background-color: #ffb895;
+    background-image: linear-gradient(to top, #ffffffff, #ffb895);
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.675);
+    text-shadow: 1px 2px 1px rgb(255, 255, 255);
+    max-width: 1000px;
+}
+
+
+.mapa p{
+    font-size: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.675);
+    text-shadow: 1px 2px 1px rgb(255, 255, 255);
+    max-width: 1000px;
+}
+
+.agendamento button{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    vertical-align: center;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(255, 203, 135);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    transition: .5s;
+    border-radius: 10px;
+    border-style: none;
+}
