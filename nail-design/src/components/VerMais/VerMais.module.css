@@ -17,15 +17,16 @@ h2{
     vertical-align: center;
     text-align: center;
     font-size: 2rem;
-    background-color: black;
+    background-color: rgb(255, 203, 135);
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     transition: .5s;
     border-radius: 10px;
+    border-style: none;
 }
 .button:hover {
-    background-color: white;
+    background-color: rgb(255, 177, 41);
     color: black;
 }
 
@@ -33,6 +34,7 @@ a{
     text-decoration: none;
     color: black;
     font-weight: 600;
+    padding-bottom: 20px;
 }
 
 a:hover {

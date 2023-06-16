@@ -6,7 +6,7 @@
 }
 
 .tudo{
-    background-image: url("../../images/nail1.jpg");
+    background-image: url("../../images/nail2.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -16,6 +16,7 @@ h1{
     background-image: linear-gradient(to top, #ffffffff, #ffb895);
     text-align: center;
     padding: 10px;
+    padding-top: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     color: rgba(0, 0, 0, 0.675);

@@ -1,0 +1,30 @@
+.agendamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.agendamento h1{
+    background-image: linear-gradient(to top, #ffffffff, #ffb895);
+    width: 100%;
+}
+
+.agendamento button{
+    border-style: none;
+    background-color: rgb(255, 203, 135);
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+.agendamento button:hover{
+    background-color: rgb(255, 177, 41);
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    color: black;
+}
+
+.social{
+    margin-top: -20px;
+}
