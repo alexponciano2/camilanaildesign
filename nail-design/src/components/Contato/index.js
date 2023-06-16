@@ -8,8 +8,8 @@ function Contato() {
             <div className={styles.contato}>
                 <p>ENDEREÇO:<br/> Avenida Retiro dos Ananás, 59<br/>Morada do Ribeirão<br/>São Mateus - ES</p>
             </div>
-
                 <a target="_blank" href="https://goo.gl/maps/zqGDT3BrJWw7V2Fx8"><img src={map} alt="fb" className={styles.map} /></a>
+                
 
             <div>
             </div>
