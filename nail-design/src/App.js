@@ -1,10 +1,12 @@
 import './App.css';
 import Agendamento from './components/Agendamento';
-import Banner from './components/Banner';
+import ControlledCarousel from './components/BannerSlick';
+// import Banner from './components/Banner';
+// import BannerSlick from './components/BannerSlick';
 import Container from './components/Container';
 import Contato from './components/Contato';
 import Footer from './components/Footer';
-import FotoCamila from './components/FotoCamila';
+// import FotoCamila from './components/FotoCamila';
 import Header from "./components/Header"
 import NavBar from './components/NavBar';
 import Services from './components/Services';
@@ -18,7 +20,7 @@ function App() {
     <>
       <Header />
       <NavBar />
-      <Banner />
+      <ControlledCarousel />
       <Container />
       <div id='servicos'></div>
       <Services />

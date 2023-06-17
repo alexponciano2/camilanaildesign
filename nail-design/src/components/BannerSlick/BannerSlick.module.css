@@ -1,0 +1,15 @@
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 1000px;
+    width: 350px;
+    height: 60vh;
+    padding-top: 10px;
+}
+
+.geral{
+    max-width: 400px;
+    margin: auto;
+}
