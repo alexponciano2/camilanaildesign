@@ -5,78 +5,471 @@
     padding: 0;
 }
 
-.header {
-    width: 100%;
-    margin: auto;
-    height: 100%;
-    display: flex;
-    background-color: #ffb8957a;
-    font-family: 'Cinzel', serif;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    font-size: 1.7rem;
-    color: #333;
-    padding: 20px;
-    text-align: center;
-    background-image: url("../FotoCamila/fotocamila3.png");
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-position: -60px;
-    background-position-y: 100%;
-    
+@media(max-width: 449px) {
+    .header {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        background-color: #ffb8957a;
+        font-family: 'Cinzel', serif;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 1.7rem;
+        color: #333;
+        padding: 20px;
+        text-align: center;
+        background-image: url("../FotoCamila/fotocamila3.png");
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: -60px;
+        background-position-y: 100%;
+
+    }
+
+    .header a {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 200px;
+    }
+
+    .whatsapp {
+        margin-top: 30px;
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: -20px;
+        flex-direction: column;
+        margin-inline-end: 0;
+        width: 40px;
+    }
+
+    .whatsapp:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+
+    .instagram {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: 75px;
+        flex-direction: column;
+        width: 40px;
+    }
+
+    .instagram:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+
+
+    .facebook {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: 140px;
+        flex-direction: column;
+        width: 40px;
+    }
+
+    .facebook:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
 }
 
-.header a{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 200px;
+@media(min-width: 450px) and (max-width: 767px) {
+    .header {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        background-color: #ffb8957a;
+        font-family: 'Cinzel', serif;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 1.7rem;
+        color: #333;
+        padding: 20px;
+        text-align: center;
+        background-image: url("../FotoCamila/fotocamila3.png");
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: -60px;
+        background-position-y: 100%;
+
+    }
+
+    .header a {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 200px;
+    }
+
+    .whatsapp {
+        margin-top: 30px;
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: -20px;
+        flex-direction: column;
+        margin-inline-end: 0;
+        width: 40px;
+    }
+
+    .whatsapp:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+
+    .instagram {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: 75px;
+        flex-direction: column;
+        width: 40px;
+    }
+
+    .instagram:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+
+
+    .facebook {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: 140px;
+        flex-direction: column;
+        width: 40px;
+    }
+
+    .facebook:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
 }
 
-.whatsapp{
-    margin-top: 30px;
-    display: flex;
-    position: absolute;
-    right: 10px;
-    top: -20px;
-    flex-direction: column;    
-    margin-inline-end: 0;
-    width: 40px;
+@media (min-width: 768px) and (max-width: 991px) {
+    .header {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        background-color: #ffb8957a;
+        font-family: 'Cinzel', serif;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 1.7rem;
+        color: #333;
+        padding: 20px;
+        text-align: center;
+        background-image: url("../FotoCamila/fotocamila3.png");
+        background-position-x: 50px;
+        background-size: 200px;
+        background-repeat: no-repeat;
+        /* background-position: -60px; */
+        background-position-y: 100%;
+
+    }
+
+    .header a {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 200px;
+    }
+
+    .whatsapp {
+        margin-top: 30px;
+        display: flex;
+        position: absolute;
+        right: 150px;
+        top: 10px;
+        flex-direction: column;
+        margin-inline-end: 0;
+        width: 40px;
+    }
+
+    .whatsapp:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+
+    .instagram {
+        display: flex;
+        position: absolute;
+        right: 150px;
+        top: 120px;
+        flex-direction: column;
+        width: 40px;
+    }
+
+    .instagram:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+
+
+    .facebook {
+        display: flex;
+        position: absolute;
+        right: 150px;
+        top: 200px;
+        flex-direction: column;
+        width: 40px;
+    }
+
+    .facebook:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
 }
 
-.whatsapp:hover{
-    width: 2.7rem;
-    filter: brightness(1.2);
-    cursor: pointer;
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        background-color: #ffb8957a;
+        font-family: 'Cinzel', serif;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 1.7rem;
+        color: #333;
+        padding: 20px;
+        text-align: center;
+        background-image: url("../FotoCamila/fotocamila3.png");
+        background-position-x: 120px;
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position-y: 100%;
+
+    }
+
+    .header a {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 200px;
+    }
+
+    .whatsapp {
+        margin-top: 30px;
+        display: flex;
+        position: absolute;
+        right: 150px;
+        top: 10px;
+        flex-direction: column;
+        margin-inline-end: 0;
+        width: 40px;
+    }
+
+    .whatsapp:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+
+    .instagram {
+        display: flex;
+        position: absolute;
+        right: 150px;
+        top: 120px;
+        flex-direction: column;
+        width: 40px;
+    }
+
+    .instagram:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+
+
+    .facebook {
+        display: flex;
+        position: absolute;
+        right: 150px;
+        top: 200px;
+        flex-direction: column;
+        width: 40px;
+    }
+
+    .facebook:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
 }
 
-.instagram{
-    display: flex;
-    position: absolute;
-    right: 10px;
-    top: 75px;
-    flex-direction: column;
-    width: 40px;
+@media (min-width: 1200px){
+    .header {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        background-color: #ffb8957a;
+        font-family: 'Cinzel', serif;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 1.7rem;
+        color: #333;
+        padding: 20px;
+        text-align: center;
+        background-image: url("../FotoCamila/fotocamila3.png");
+        background-position-x: 250px;
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position-y: 100%;
+
+    }
+
+    .header a {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 200px;
+    }
+
+    .whatsapp {
+        margin-top: 30px;
+        display: flex;
+        position: absolute;
+        right: 350px;
+        top: 10px;
+        flex-direction: column;
+        margin-inline-end: 0;
+        width: 40px;
+    }
+
+    .whatsapp:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+
+    .instagram {
+        display: flex;
+        position: absolute;
+        right: 350px;
+        top: 120px;
+        flex-direction: column;
+        width: 40px;
+    }
+
+    .instagram:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+
+
+    .facebook {
+        display: flex;
+        position: absolute;
+        right: 350px;
+        top: 200px;
+        flex-direction: column;
+        width: 40px;
+    }
+
+    .facebook:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
 }
 
-.instagram:hover{
-    width: 2.7rem;
-    filter: brightness(1.2);
-    cursor: pointer;
-}
+@media (min-width: 1500px){
+    .header {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        background-color: #ffb8957a;
+        font-family: 'Cinzel', serif;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 1.7rem;
+        color: #333;
+        padding: 20px;
+        text-align: center;
+        background-image: url("../FotoCamila/fotocamila3.png");
+        background-position-x: 400px;
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position-y: 100%;
+
+    }
+
+    .header a {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 200px;
+    }
+
+    .whatsapp {
+        margin-top: 30px;
+        display: flex;
+        position: absolute;
+        right: 500px;
+        top: 10px;
+        flex-direction: column;
+        margin-inline-end: 0;
+        width: 40px;
+    }
+
+    .whatsapp:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+
+    .instagram {
+        display: flex;
+        position: absolute;
+        right: 500px;
+        top: 120px;
+        flex-direction: column;
+        width: 40px;
+    }
+
+    .instagram:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
 
 
-.facebook{
-    display: flex;
-    position: absolute;
-    right: 10px;
-    top: 140px;
-    flex-direction: column;
-    width: 40px;
-}
+    .facebook {
+        display: flex;
+        position: absolute;
+        right: 500px;
+        top: 200px;
+        flex-direction: column;
+        width: 40px;
+    }
 
-.facebook:hover{
-    width: 2.7rem;
-    filter: brightness(1.2);
-    cursor: pointer;
+    .facebook:hover {
+        width: 2.7rem;
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
 }
