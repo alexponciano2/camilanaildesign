@@ -1,6 +1,4 @@
 import styles from "./Footer.module.css"
-import { FaFacebook, FaInstagram, FaLinkedin, FaMapMarked, FaWhatsapp } from 'react-icons/fa'
-import logo from "../Header/logo2.png"
 
 function Footer() {
     return (

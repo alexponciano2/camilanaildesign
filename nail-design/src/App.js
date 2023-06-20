@@ -1,7 +1,7 @@
 import './App.css';
 import Agendamento from './components/Agendamento';
 import ControlledCarousel from './components/BannerSlick';
-// import Banner from './components/Banner';
+import Banner from './components/Banner';
 // import BannerSlick from './components/BannerSlick';
 import Container from './components/Container';
 import Contato from './components/Contato';
@@ -20,7 +20,7 @@ function App() {
     <>
       <Header />
       <NavBar />
-      <ControlledCarousel />
+      <Banner />
       <Container />
       <div id='servicos'></div>
       <Services />
